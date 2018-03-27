@@ -28,7 +28,7 @@ int main() {
     std::cout << "og price?? ";
     std::cin >> wholesale;
     std::cout << "WOW!! " << wholesale << "?? what a low price!!" << std::endl;
-    std::cout << "what's the markup tho??";
+    std::cout << "what's the markup tho?? ";
     std::cin >> markup;
     std::cout << markup << "%? now that's just ridiculous smh" << std::endl;
 
@@ -38,6 +38,6 @@ int main() {
 
 double calculateRetail(double wholesale, double markup) {
 
-    return 0;
+    return (wholesale+(wholesale*(markup/100)));
 
 }
