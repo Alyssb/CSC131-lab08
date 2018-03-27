@@ -17,9 +17,10 @@ double calculateRetail(double wholesale, double markup);
 //main has to be an int because you return the exit sucess sequence
 int main() {
 
-    string item;
     std::cout << "what are you buying?? ";
-    std::cin >> number;
+    std::string item;
+    std::getline(std::cin, item);
+    std::cout << "you're getting a " << item << ", wOw" << std::endl;
     return EXIT_SUCCESS;
 }
 
