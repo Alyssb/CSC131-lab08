@@ -11,9 +11,19 @@
 #include <iostream> //for cout and cin, all user inputs
 #include <string> //to be able to use any sort of string
 
+/**
+ * calculates retail price from entered wholesale cost and markup percent.
+ * @param wholesale the wholesale cost of the item
+ * @param markup markup percent of the item
+ * @return retail cost is returned
+ */
 double calculateRetail(double wholesale, double markup);
 
 //main has to be an int because you return the exit sucess sequence
+/**
+ * entry point of this application.
+ * @return EXIT_SUCCESS is returned upon successful execution of this program
+ */
 int main() {
 
     std::cout << "what are you buying?? ";
