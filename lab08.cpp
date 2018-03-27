@@ -8,7 +8,7 @@
 
 // TODO: Include any and all libraries needed by your program
 
-// TODO: Create a forward declaration for your calculateRetail function
+double calculateRetail(double wholesale, double markup);
 
 // TODO: Write main below
 
